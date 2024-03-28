@@ -8,7 +8,7 @@ import { BottomGradient } from '@/components/ui/bottom-gradient';
 export default function Login() {
   return (
     <>
-      <div className='shadow-input relative z-50 mx-auto w-full max-w-md rounded-none bg-white p-4 dark:bg-black md:rounded-2xl md:p-8'>
+      <div className='relative z-50 mx-auto w-full max-w-md rounded-none bg-white p-4 shadow-input dark:bg-black md:rounded-2xl md:p-8'>
         <form className='my-8' onSubmit={() => {}}>
           <LabelInputContainer className='mb-4'>
             <Label htmlFor='email'>Email</Label>
