@@ -1,8 +1,8 @@
+import { ADMIN_ROUTES } from '@/constants';
 import { redirect } from 'next/navigation';
 
 const Page = () => {
-  redirect('/admin/sign-in');
-  return <div>page</div>;
+  redirect(ADMIN_ROUTES.signIn);
 };
 
 export default Page;
