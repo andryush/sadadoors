@@ -67,7 +67,7 @@ export default function SignIn() {
   };
 
   if (user) {
-    redirect(ADMIN_ROUTES.dashboard);
+    redirect(ADMIN_ROUTES.products);
   }
 
   return (
