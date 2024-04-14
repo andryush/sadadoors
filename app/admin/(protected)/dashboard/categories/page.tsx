@@ -1,5 +1,5 @@
 const Page = () => {
-  return <div>Categories</div>;
+  return <div>Categories:</div>;
 };
 
 export default Page;
